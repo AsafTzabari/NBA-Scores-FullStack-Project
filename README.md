@@ -14,7 +14,7 @@ This is a web application built with Node.js and Express that fetches and displa
 
 1. **Clone the Repository:**
    ```
-   git clone https://github.com/omertzroya/NBA-Scorese-FullStack-Project.git
+   git clone https://github.com/AsafTzabari/NBA-Scores-FullStack-Project
    ```
 
 2. **Install Dependencies:**
@@ -56,6 +56,13 @@ To successfully run the application, you need to obtain a RapidAPI key as it is 
 - Axios: HTTP client for making API requests
 - EJS: Embedded JavaScript templating for rendering dynamic content
 
+## Screenshots
+<div style="display: flex; justify-content: space-between;">
+    <div style="flex: 1; text-align: center;">
+        <img src="public/images/Screenshots1.png" width="300" alt="Screenshot 1">
+       <img src="public/images/Screenshots2.png" width="300" alt="Screenshot 2">
+       
+</div>
 
 
 

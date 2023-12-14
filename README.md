@@ -14,11 +14,7 @@ This is a web application built with Node.js and Express that fetches and displa
 
 1. **Clone the Repository:**
    ```
-<<<<<<< HEAD
-   git clone https://github.com/AsafTzabari/NBA-Scores-FullStack-Project
-=======
    git clone https://github.com/AsafTzabari/NBA-Scores-FullStack-Project.git
->>>>>>> a82601ae46073548bc28ea62c4dc62af34c01770
    ```
 
 2. **Install Dependencies:**
@@ -82,14 +78,6 @@ Feel free to contribute to the project by opening issues or creating pull reques
 ---
 
 Enjoy exploring NBA scores with this web app! If you have any issues or suggestions, please open an issue in the GitHub repository.
-
-
-
-
-
-
-
-
 
 
 

@@ -1,6 +1,7 @@
 import express, { response } from "express";
 import axios from "axios";
-
+import dotenv from 'dotenv';
+dotenv.config();
 
 // Server setup 
 const app = express();
@@ -15,13 +16,12 @@ app.use(express.static("public"));
 
 // Routes 
 app.get('/', async(req, res) => {
-
   const options = {
     method: 'GET',
     url: 'https://odds.p.rapidapi.com/v4/sports/basketball_nba/scores',
     params: {daysFrom: '3'},
     headers: {
-      'X-RapidAPI-Key': 'YOUR-RAPIDAPI-KEY',
+      'X-RapidAPI-Key': process.env.API_KEY,
       'X-RapidAPI-Host': 'odds.p.rapidapi.com'
     }
   };
